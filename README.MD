@@ -8,16 +8,6 @@
 
 ## BTC 加密货币
 1. Coursera - Bitcoin and Cryptocurrency Technologies
-|在线课堂|完成时间|
+|章节|完成时间|
 |:----------|:----------|
-|Week 1|进行中|
-|Week 2||
-|Week 3||
-|Week 4||
-|Week 5||
-|Week 6||
-|Week 7||
-|Week 8||
-|Week 9||
-|Week 10||
-|Week 11||
+|Week1|进行中|
