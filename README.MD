@@ -7,7 +7,8 @@
    * 实现时间和人力估算：[Replication with Byzantine Paxos Current Status and Estimation](https://github.com/daleiyang/btc-cryptocurrency-consensus/blob/master/Paxos/Replication%20with%20Byzantine%20Paxos%20Current%20Status%20and%20Estimation.doc)
 
 ## BTC 加密货币
-1. Coursera - Bitcoin and Cryptocurrency Technologies
+1. BTC 白皮书，2018.06.30 看完。 很highlevel的介绍，需要结合code理解。对攻击者成功概率的计算公式理解不透彻，以后有机会再仔细研究。[白皮书]()
+2. Coursera - Bitcoin and Cryptocurrency Technologies
 
     |章节|完成时间|
     |:----------|:----------|
