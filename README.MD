@@ -1,3 +1,11 @@
+## BTC 加密货币
+1. BTC 白皮书，2018.06.30 看完。 很highlevel的介绍，需要结合code理解。对攻击者成功概率的计算公式理解不透彻，以后有机会再仔细研究。[白皮书](https://github.com/daleiyang/btc-cryptocurrency-consensus/blob/master/BitcoinAndCryptocurrencyTechnologies/bitcoin.pdf)
+2. Coursera - Bitcoin and Cryptocurrency Technologies
+
+    |章节|完成时间|
+    |:----------|:----------|
+    |Week1|进行中|
+
 ## 分布式系统一致性
 1. Paxos 算法 
    * 目前进展：截至2017年3月15号，我正在细读Miguel Castro的论文并理解Liskov的代码，尽快完成原型开发，完成后我会详细讲讲解决拜占庭将军问题的Paxos算法到底是个什么东东，是如何实现的。如有兴趣请保持关注:)
@@ -5,11 +13,3 @@
    * 相关资料存储处：[https://github.com/daleiyang/btc-cryptocurrency-consensus/tree/master/Paxos/Thesis](https://github.com/daleiyang/btc-cryptocurrency-consensus/tree/master/Paxos/Thesis)
    * 系统设计文档：[Highly-Available Distributed In-Memory Cache with Byzantine Paxos](https://github.com/daleiyang/btc-cryptocurrency-consensus/blob/master/Paxos/Highly-Available%20Distributed%20In-Memory%20Cache%20with%20Byzantine%20Paxos.doc)
    * 实现时间和人力估算：[Replication with Byzantine Paxos Current Status and Estimation](https://github.com/daleiyang/btc-cryptocurrency-consensus/blob/master/Paxos/Replication%20with%20Byzantine%20Paxos%20Current%20Status%20and%20Estimation.doc)
-
-## BTC 加密货币
-1. BTC 白皮书，2018.06.30 看完。 很highlevel的介绍，需要结合code理解。对攻击者成功概率的计算公式理解不透彻，以后有机会再仔细研究。[白皮书]()
-2. Coursera - Bitcoin and Cryptocurrency Technologies
-
-    |章节|完成时间|
-    |:----------|:----------|
-    |Week1|进行中|
