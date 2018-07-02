@@ -4,7 +4,8 @@
 
     |章节|完成时间|
     |:----------|:----------|
-    |Chapter 1. Introduction|进行中|
+    |Chapter 1. Introduction|2018-07-03|
+    |Chapter 2. How Bitcoin Works|进行中|
 
 3. Coursera - Bitcoin and Cryptocurrency Technologies
 
