@@ -2,11 +2,11 @@
 1. BTC 白皮书，2018.06.30 看完。 很highlevel的介绍，需要结合code理解。对攻击者成功概率的计算公式理解不透彻，以后有机会再仔细研究。[白皮书](https://github.com/daleiyang/btc-cryptocurrency-consensus/blob/master/BitcoinAndCryptocurrencyTechnologies/bitcoin.pdf)
 2. Mastering Bitcoin: Programming the Open Blockchain
 
-    |章节|完成时间|
-    |:----------|:----------|
-    |Chapter 1. Introduction|2018-07-03|
-    |Chapter 2. How Bitcoin Works|2018-07-03|
-    |Chapter 3. Bitcoin Core: The Reference Implementation|进行中|
+    |章节|完成时间|心得|
+    |:----------|:----------|:----------|
+    |Chapter 1. Introduction|2018-07-03||
+    |Chapter 2. How Bitcoin Works|2018-07-03||
+    |Chapter 3. Bitcoin Core: The Reference Implementation|2018-07-09|测试|
 
 3. Coursera - Bitcoin and Cryptocurrency Technologies
 
