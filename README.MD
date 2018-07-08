@@ -10,8 +10,8 @@
     |Chapter 2. Keys, Addresses|进行中|
     
    第3章体会：
-   * 用Azure ubuntu VM, 外加256G的SSD搭建了环境
-   * python库的使用。
+   * 用Azure ubuntu VM, 外加256G的SSD搭建了环境，同步区块链速度还可以。
+   * 通过python-bitcoinlib库和full node交互很方便。
 
 3. Coursera - Bitcoin and Cryptocurrency Technologies
 
