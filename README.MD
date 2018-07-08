@@ -6,7 +6,12 @@
     |:----------|:----------|:----------|
     |Chapter 1. Introduction|2018-07-03||
     |Chapter 2. How Bitcoin Works|2018-07-03||
-    |Chapter 3. Bitcoin Core: The Reference Implementation|2018-07-09|用Azure ubuntu VM+256G的SSD搭建了环境, 初步测试了Python Lib|
+    |Chapter 3. Bitcoin Core: The Reference Implementation|2018-07-09|1|
+    |Chapter 2. Keys, Addresses|进行中||
+    
+   1. 第3章体会：
+   * 用Azure ubuntu VM, 外加256G的SSD搭建了环境|
+   * python库的使用。
 
 3. Coursera - Bitcoin and Cryptocurrency Technologies
 
