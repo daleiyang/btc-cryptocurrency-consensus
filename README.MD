@@ -13,6 +13,7 @@
    第3章体会：
    * 用Azure ubuntu VM, 外加256G的SSD搭建了环境，同步区块链速度还可以。
    * 通过python-bitcoinlib库和full node交互很方便。
+   
    第4章体会：
    * V神的pybitcointools，需要从git上下载，setup.py安装，并且和 python-bitcoinlib冲突；两者选其一安装，测试书中代码。
 
