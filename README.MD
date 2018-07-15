@@ -9,7 +9,8 @@
     |Chapter 3. Bitcoin Core: The Reference Implementation|2018-07-09|
     |Chapter 4. Keys, Addresses|2018-07-11|
     |Chapter 5. Wallets|2018-07-12|
-    |Chapter 6. Transactions|进行中|
+    |Chapter 6. Transactions|2018-07-16|
+    |Chapter 7. Advanced Transactions and Scripting|进行中|
     
    第3章体会：
    * 用Azure ubuntu VM, 外加256G的SSD搭建了环境，同步区块链速度还可以。
@@ -20,6 +21,9 @@
    
    第5章体会：
    * 感觉是一章的钱包制作指南。重点是HD钱包生成公钥私钥的原理，有很多的细节，需要实际使用中遇到了才能记得住。
+   
+   第6章体会：
+   * transaction的具体细节，还是需要看code。
 
 3. Coursera - Bitcoin and Cryptocurrency Technologies
 
