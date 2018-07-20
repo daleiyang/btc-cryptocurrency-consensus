@@ -11,17 +11,15 @@
     |Chapter 5. Wallets|2018-07-12|
     |Chapter 6. Transactions|2018-07-16|
     |Chapter 7. Advanced Transactions and Scripting|2018-07-17|
-    |Chapter 8. The Bitcoin Network|进行中|
+    |Chapter 8. The Bitcoin Network|2018-07-19|
+    |Chapter 9. The Blockchain|2018-07-20|
+    |Chapter 10. Mining and Consensus|进行中|
     
-   第3章体会：
+   笔记：
    * 用Azure ubuntu VM, 外加256G的SSD搭建了环境，同步区块链速度还可以。
    * 通过python-bitcoinlib库和full node交互很方便。
-   
-   第4章体会：
    * V神的pybitcointools，要从git上下载，用setup.py安装；和 python-bitcoinlib冲突，需要先删除python-bitcoinlib。
-   
-   第5章体会：
-   * 感觉是一章的钱包制作指南。重点是HD钱包生成公钥私钥的原理，有很多的细节，需要实际使用中遇到了才能记得住。
+   * 第5章是的钱包制作指南。重点是HD钱包生成公钥私钥的原理，有很多的细节，需要实际使用中遇到了才能记得住。
 
 
 3. Coursera - Bitcoin and Cryptocurrency Technologies
