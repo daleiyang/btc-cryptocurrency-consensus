@@ -13,20 +13,21 @@
     |Chapter 7. Advanced Transactions and Scripting|2018-07-17|
     |Chapter 8. The Bitcoin Network|2018-07-19|
     |Chapter 9. The Blockchain|2018-07-20|
-    |Chapter 10. Mining and Consensus|进行中|
+    |Chapter 10. Mining and Consensus|2018-07-26|
+    |Chapter 11. Bitcoin Security|进行中|
     
-   笔记：
+   Notes：
    * 用Azure ubuntu VM, 外加256G的SSD搭建了环境，同步区块链速度还可以。
    * 通过python-bitcoinlib库和full node交互很方便。
    * V神的pybitcointools，要从git上下载，用setup.py安装；和 python-bitcoinlib冲突，需要先删除python-bitcoinlib。
-   * 第5章是的钱包制作指南。重点是HD钱包生成公钥私钥的原理，有很多的细节，需要实际使用中遇到了才能记得住。
-
-
-3. Coursera - Bitcoin and Cryptocurrency Technologies
-
-    |章节|完成时间|
-    |:----------|:----------|
-    |Week1|进行中|
+   * 第5章是的钱包制作指南。重点是HD钱包生成公钥私钥的原理，有很多的细节，有实际需要采用得着。
+   * 第10章是精华所在，体会如下：
+     1. 之所以搞出10分钟搞出一个区块，目的就是简化在所有机器中同步状态的难度。
+     2. BTC的激励机制、根据全网算力动态调整猜谜难度的设计很牛，解决了如何在去中心化的环境中，维护整体网络可靠可用的问题。
+     对比了BTC的“去中心化”一致 和 Paxos 的 "可以自由选主的中心化" 一致，有些想法，记录如下：
+     1. BTC让所有的矿工一起猜迷题，谁先猜出来谁说了算；对应到Paxos， 只有 "主" 节点说了算：对于BTC来说，谁猜中了，他的结果（区块）大家都认可；在这一轮中，他就是“主"；下一轮，不一定谁是”主“；Paxos 谁是 ”主“ 谁说了算，除非重新选”主“，否则就一直是这个节点说了算。
+     2. BTC有多个矿工同时猜出来，都广播自己的结论，出现不一致；对应到Paxos，就是多 "主" 并存，需要重新选 "主"。对于BTC，在一轮中，如果有多个矿工同时猜出来，都广播自己的结论，这就是多个节点都认为自己是”主“，BTC中出现了不一致。依靠10分钟猜一次、谁投入的算力多，就认可谁的结果 这种设计，能够最终在全网解决不一致的问题。对Paxos来说，也会出现多个节点都认为自己是”主“的情况，导致不一致出现，但也有一套协议最终能够达到全网一致。
+     3. 效率上来说，肯定是Paxos完胜，绝不会需要10分钟的delay，代价就是协议复杂度高。
 
 ## 分布式系统一致性
 1. Paxos 算法 
