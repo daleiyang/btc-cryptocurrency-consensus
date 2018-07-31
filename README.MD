@@ -15,7 +15,7 @@
     |Chapter 9. The Blockchain|2018-07-20|
     |Chapter 10. Mining and Consensus|2018-07-26|
     |Chapter 11. Bitcoin Security|2018-07-29|
-    |Chapter 12. Blockchain Applications|进行中|
+    |Chapter 12. Blockchain Applications|2018-07-31|
     
    Notes：
    * 用Azure ubuntu VM, 外加256G的SSD搭建了环境，同步区块链速度还可以。
@@ -36,6 +36,8 @@
      * 效率上来说，肯定是Paxos完胜，绝不会需要10分钟的delay，代价就是协议复杂度高。
      
    * 第11章，传统中心化信任方式和 BTC的分布式信任方式有很多不同，在开发时要在BTC的安全框架内设计，不要自己维护用户key，或者为了简单脱离区块链的方式自己维护不同账户之间的交易。
+ 	
+   * 第12章，介绍了闪电网络是如何加速、增强和扩展BTC的；将BTC扩展成为一个分布式的信任平台，能够在各行各业发展出来很多可颠覆性的应用。
 
 ## 分布式系统一致性
 1. Paxos 算法 
