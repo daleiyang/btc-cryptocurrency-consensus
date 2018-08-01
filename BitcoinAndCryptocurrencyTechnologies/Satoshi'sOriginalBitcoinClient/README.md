@@ -12,4 +12,4 @@ Block Exchange: https://bitcointalk.org/index.php?topic=41729.0
 
 Transaction Exchange: https://bitcointalk.org/index.php?topic=41730.0
 
-源代码：BTC的 v0.3.22
+源代码：BTC v0.3.22
