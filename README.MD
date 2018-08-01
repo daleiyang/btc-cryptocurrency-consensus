@@ -6,11 +6,11 @@
     |:----------|:----------|
     |全书通读|2018-07-03 到 2018-07-31|
     
-    [读书笔记](https://github.com/daleiyang/btc-cryptocurrency-consensus/tree/master/BitcoinAndCryptocurrencyTechnologies/MasteringBitcoin2thEdition/README.md)
+    [读书笔记](https://github.com/daleiyang/btc-cryptocurrency-consensus/tree/master/BitcoinAndCryptocurrencyTechnologies/MasteringBitcoin2thEdition)
 
 3. BTC v0.3.22 源代码阅读
 
-    [笔记](https://github.com/daleiyang/btc-cryptocurrency-consensus/tree/master/BitcoinAndCryptocurrencyTechnologies/Satoshi'sOriginalBitcoinClient/README.md)	
+    [阅读笔记](https://github.com/daleiyang/btc-cryptocurrency-consensus/tree/master/BitcoinAndCryptocurrencyTechnologies/Satoshi'sOriginalBitcoinClient)	
 
 ## 分布式系统一致性
 1. Paxos 算法 
