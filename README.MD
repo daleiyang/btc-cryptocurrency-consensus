@@ -4,21 +4,10 @@
 
     |章节|完成时间|
     |:----------|:----------|
-    |Chapter 1. Introduction|2018-07-03|
-    |Chapter 2. How Bitcoin Works|2018-07-03|
-    |Chapter 3. Bitcoin Core: The Reference Implementation|2018-07-09|
-    |Chapter 4. Keys, Addresses|2018-07-11|
-    |Chapter 5. Wallets|2018-07-12|
-    |Chapter 6. Transactions|2018-07-16|
-    |Chapter 7. Advanced Transactions and Scripting|2018-07-17|
-    |Chapter 8. The Bitcoin Network|2018-07-19|
-    |Chapter 9. The Blockchain|2018-07-20|
-    |Chapter 10. Mining and Consensus|2018-07-26|
-    |Chapter 11. Bitcoin Security|2018-07-29|
-    |Chapter 12. Blockchain Applications|2018-07-31|
+    |全书通读|2018-07-03 到 2018-07-31|
     
    Notes：
-   * 用Azure ubuntu VM, 外加256G的SSD搭建了环境，同步区块链速度还可以。
+   * 用Azure ubuntu VM, 外加256G的SSD搭建了环境，用了两天同步区块链，开始很快，后来变慢。
    
    * 通过python-bitcoinlib库和full node交互很方便。
    
@@ -27,7 +16,7 @@
    * 第5章是的钱包制作指南。重点是HD钱包生成公钥私钥的原理，有很多的细节，有实际需要采用得着。
    
    * 第10章是精华所在，体会如下：
-     * 之所10分钟一个区块，目的就是简化在所有机器中同步状态的难度。巧妙的利用了10分钟的间隙，解决了不同步的节点如何再次同步的难题。但是也带来了10分钟的延迟。
+     * 之所以10分钟产生一个区块，目的就是简化在所有机器中同步状态的难度。巧妙的利用了10分钟的间隙，解决了不同步的节点如何再次同步的难题。但是也带来了10分钟的延迟。
      * BTC的激励机制、根据全网算力动态调整猜谜难度的设计很牛，解决了如何在去中心化的环境中，维护整体网络可靠可用的问题。
      
         对比了BTC的“去中心化”一致 和 Paxos 的 "可以自由选主的中心化" 一致，有些想法，记录如下：
@@ -37,7 +26,10 @@
      
    * 第11章，传统中心化信任方式和 BTC的分布式信任方式有很多不同，在开发时要在BTC的安全框架内设计，不要自己维护用户key，或者为了简单脱离区块链的方式自己维护不同账户之间的交易。
  	
-   * 第12章，介绍了闪电网络是如何加速、增强和扩展BTC的；将BTC扩展成为一个分布式的信任平台，能够在各行各业发展出来很多可颠覆性的应用。
+   * 第12章，介绍了闪电网络是如何加速、增强和扩展BTC的，将BTC扩展成为一个分布式的信任平台，能够在各行各业发展出很多颠覆性的应用。
+
+3. Satoshi Client Operation: Overview
+
 
 ## 分布式系统一致性
 1. Paxos 算法 
